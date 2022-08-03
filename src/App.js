@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import {
+	Container,
+	Flex,
+	VStack,
+	Heading,
+	Text,
+	SimpleGrid,
+	GridItem,
+	FormControl,
+	FormLabel,
+	Input,
+	Textarea,
+	Select,
+	Checkbox,
+	Button,
+	AspectRatio,
+	Image,
+	Stack,
+	Divider,
+} from "@chakra-ui/react";
+
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+
+import CartPage from "./pages/CartPage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		
+			
+
+			<CartPage/>
+			
+			
+		
+	);
 }
 
 export default App;
