@@ -25,13 +25,15 @@ import {
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 import CartPage from "./pages/CartPage";
+import Reusable from "./reusable/Reusable";
 
 function App() {
 	return (
 		
 			
 
-			<CartPage/>
+			// <CartPage/>
+			<Reusable/>
 			
 			
 		
